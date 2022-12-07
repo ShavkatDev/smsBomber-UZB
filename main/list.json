@@ -1,0 +1,35 @@
+{
+    "listOf":[
+        {
+        "url": "https://api.webpos.uz/api/client/sendsms",
+        "header": "application/json",
+        "payload": "phoneNumber",
+        "startWithPlus": true
+        },
+        {
+        "url": "https://api.express24.uz/client/v4/authentication/code",
+        "header": "application/json; charset=utf-8",
+        "payload": "phone",
+        "startWithPlus": true
+        },
+        {
+        "url": "https://api.bringo.uz/api/v1/register/phone",
+        "header": "application/json",
+        "payload": "phone",
+        "startWithPlus": false
+        },
+        {
+        "url": "https://io.bellissimo.uz/api/verify",
+        "header": "application/json",
+        "payload": "phone",
+        "startWithPlus": true
+        },
+        {
+        "url": "https://api.lesailes.uz/api/send_otp",
+        "header": "application/json",
+        "payload": "phone",
+        "startWithPlus": true,
+        "source_type": "web"
+        }
+    ]
+}
